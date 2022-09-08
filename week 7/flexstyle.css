@@ -1,0 +1,17 @@
+.container{
+    height: 300px;
+    display: flex;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+
+}
+.container> div{
+    background-color: rgb(255, 255, 255);
+    line-height: 75px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
